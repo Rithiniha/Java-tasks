@@ -3,6 +3,7 @@ package armstrong;
 import java.util.Scanner;
 
 public class Armstrong {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -17,9 +18,9 @@ public class Armstrong {
         }
 
         if (original == result) {
-            System.out.println(original + " is an Armstrong number.");
+            System.out.println(original + " is an Armstrong number ");
         } else {
-            System.out.println(original + " is not an Armstrong number.");
+            System.out.println(original + " is not an Armstrong number ");
         }
 
         sc.close();
